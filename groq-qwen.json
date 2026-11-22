@@ -1,0 +1,452 @@
+[
+  {
+    "task": "1. Tóm tắt để ghi vào vở",
+    "level": "Cơ bản",
+    "model": "qwen/qwen3.8-27b",
+    "messages": [
+      {
+        "role": "system",
+        "content": "Trả lời bằng tiếng Việt. Ngữ liệu dùng chung:\nTrục quay của Trái Đất nghiêng khoảng 23,5° so với phương vuông góc với mặt phẳng quỹ đạo. Khi Trái Đất chuyển động quanh Mặt Trời, hướng trục gần như giữ nguyên. Vào tháng Sáu, Bắc bán cầu nghiêng về phía Mặt Trời, nhận ánh sáng trực diện hơn và có ngày dài hơn. Cùng lúc, Nam bán cầu có ngày ngắn hơn và ánh sáng xiên hơn. Sáu tháng sau, tình thế đảo ngược. Khoảng cách giữa Trái Đất và Mặt Trời thay đổi trong năm nhưng không giải thích được việc hai bán cầu có mùa trái ngược."
+      },
+      {
+        "role": "user",
+        "content": "Tóm tắt đoạn đọc."
+      }
+    ],
+    "temperature": 0.2,
+    "max_tokens": 2400,
+    "response": {
+      "id": "chatcmpl-d06af9f9-7d0a-48cc-9b97-d3d9d71497f7",
+      "object": "chat.completion",
+      "created": 1795344837,
+      "model": "qwen/qwen3.8-27b",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "Dưới đây là tóm tắt nội dung đoạn văn:\n\nHiện tượng các mùa trái ngược nhau giữa hai bán cầu của Trái Đất là do trục quay của hành tinh này nghiêng khoảng 23,5° so với phương vuông góc với mặt phẳng quỹ đạo. Trong quá trình quay quanh Mặt Trời, hướng trục này gần như giữ nguyên, dẫn đến việc vào một thời điểm trong năm (ví dụ tháng Sáu), Bắc bán cầu nghiêng về phía Mặt Trời nên nhận ánh sáng trực diện và có ngày dài hơn, trong khi Nam bán cầu có ngày ngắn và ánh sáng xiên hơn. Sáu tháng sau, tình thế này đảo ngược. Khoảng cách giữa Trái Đất và Mặt Trời thay đổi trong năm nhưng không phải là nguyên nhân gây ra sự khác biệt về mùa giữa hai bán cầu."
+          },
+          "logprobs": null,
+          "finish_reason": "stop"
+        }
+      ],
+      "usage": {
+        "queue_time": 0.047717345,
+        "prompt_tokens": 153,
+        "prompt_time": 0.010960885,
+        "completion_tokens": 160,
+        "completion_time": 0.303850445,
+        "total_tokens": 313,
+        "total_time": 0.31481133
+      },
+      "usage_breakdown": null,
+      "system_fingerprint": "fp_424cb89518",
+      "x_groq": {
+        "id": "req_01m81e8anners85xha0mb35dgh",
+        "seed": 1496530425
+      },
+      "service_tier": "on_demand"
+    }
+  },
+  {
+    "task": "1. Tóm tắt để ghi vào vở",
+    "level": "Cải tiến",
+    "model": "qwen/qwen3.8-27b",
+    "messages": [
+      {
+        "role": "system",
+        "content": "Trả lời bằng tiếng Việt. Ngữ liệu dùng chung:\nTrục quay của Trái Đất nghiêng khoảng 23,5° so với phương vuông góc với mặt phẳng quỹ đạo. Khi Trái Đất chuyển động quanh Mặt Trời, hướng trục gần như giữ nguyên. Vào tháng Sáu, Bắc bán cầu nghiêng về phía Mặt Trời, nhận ánh sáng trực diện hơn và có ngày dài hơn. Cùng lúc, Nam bán cầu có ngày ngắn hơn và ánh sáng xiên hơn. Sáu tháng sau, tình thế đảo ngược. Khoảng cách giữa Trái Đất và Mặt Trời thay đổi trong năm nhưng không giải thích được việc hai bán cầu có mùa trái ngược."
+      },
+      {
+        "role": "user",
+        "content": "Viết đúng hai câu cho học sinh lớp 6. Câu đầu nêu nguyên nhân, câu sau so sánh hai bán cầu vào tháng Sáu."
+      }
+    ],
+    "temperature": 0.2,
+    "max_tokens": 2400,
+    "response": {
+      "id": "chatcmpl-25413ced-4a9f-4f94-bf84-40af5945be05",
+      "object": "chat.completion",
+      "created": 1795344838,
+      "model": "qwen/qwen3.8-27b",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "Trục Trái Đất nghiêng khoảng 23,5° so với phương vuông góc với mặt phẳng quỹ đạo là nguyên nhân chính gây ra các mùa trong năm. Vào tháng Sáu, Bắc bán cầu nghiêng về phía Mặt Trời nên có ngày dài và nhận ánh sáng trực diện hơn, trong khi Nam bán cầu lại có ngày ngắn và ánh sáng xiên hơn."
+          },
+          "logprobs": null,
+          "finish_reason": "stop"
+        }
+      ],
+      "usage": {
+        "queue_time": 0.053973548,
+        "prompt_tokens": 176,
+        "prompt_time": 0.01187398,
+        "completion_tokens": 74,
+        "completion_time": 0.140545498,
+        "total_tokens": 250,
+        "total_time": 0.152419478
+      },
+      "usage_breakdown": null,
+      "system_fingerprint": "fp_a1293f40b5",
+      "x_groq": {
+        "id": "req_01m81e8b9gebtb4nnjqsb0yn1j",
+        "seed": 709107718
+      },
+      "service_tier": "on_demand"
+    }
+  },
+  {
+    "task": "1. Tóm tắt để ghi vào vở",
+    "level": "Nâng cao",
+    "model": "qwen/qwen3.8-27b",
+    "messages": [
+      {
+        "role": "system",
+        "content": "Trả lời bằng tiếng Việt. Ngữ liệu dùng chung:\nTrục quay của Trái Đất nghiêng khoảng 23,5° so với phương vuông góc với mặt phẳng quỹ đạo. Khi Trái Đất chuyển động quanh Mặt Trời, hướng trục gần như giữ nguyên. Vào tháng Sáu, Bắc bán cầu nghiêng về phía Mặt Trời, nhận ánh sáng trực diện hơn và có ngày dài hơn. Cùng lúc, Nam bán cầu có ngày ngắn hơn và ánh sáng xiên hơn. Sáu tháng sau, tình thế đảo ngược. Khoảng cách giữa Trái Đất và Mặt Trời thay đổi trong năm nhưng không giải thích được việc hai bán cầu có mùa trái ngược."
+      },
+      {
+        "role": "user",
+        "content": "Em là biên tập viên sách khoa học. Viết ghi chú theo mẫu “Hiện tượng → bằng chứng”. Thêm một câu dùng bằng chứng để bác bỏ giả thuyết khoảng cách. Chỉ dùng đoạn đọc."
+      }
+    ],
+    "temperature": 0.2,
+    "max_tokens": 2400,
+    "response": {
+      "id": "chatcmpl-4ed59826-34b5-4495-8ad3-fd039aa4f81d",
+      "object": "chat.completion",
+      "created": 1795344838,
+      "model": "qwen/qwen3.8-27b",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "**Ghi chú biên tập:**\n\n*   **Hiện tượng:** Hai bán cầu Trái Đất có các mùa trái ngược nhau (khi Bắc bán cầu là mùa hè thì Nam bán cầu là mùa đông và ngược lại).\n*   **Bằng chứng:** Trục quay của Trái Đất nghiêng khoảng 23,5° so với phương vuông góc với mặt phẳng quỹ đạo và hướng trục gần như giữ nguyên trong quá trình chuyển động quanh Mặt Trời, khiến ánh sáng chiếu trực diện hoặc xiên khác nhau tùy theo thời điểm trong năm.\n\nKhoảng cách giữa Trái Đất và Mặt Trời thay đổi trong năm nhưng không giải thích được việc hai bán cầu có mùa trái ngược."
+          },
+          "logprobs": null,
+          "finish_reason": "stop"
+        }
+      ],
+      "usage": {
+        "queue_time": 0.052009871,
+        "prompt_tokens": 187,
+        "prompt_time": 0.013188459,
+        "completion_tokens": 140,
+        "completion_time": 0.290807579,
+        "total_tokens": 327,
+        "total_time": 0.303996038
+      },
+      "usage_breakdown": null,
+      "system_fingerprint": "fp_21e59ac2de",
+      "x_groq": {
+        "id": "req_01m81e8bqke7pt0kb4z4wbdzx8",
+        "seed": 1905224838
+      },
+      "service_tier": "on_demand"
+    }
+  },
+  {
+    "task": "2. Giải thích vì sao có mùa",
+    "level": "Cơ bản",
+    "model": "qwen/qwen3.8-27b",
+    "messages": [
+      {
+        "role": "system",
+        "content": "Trả lời bằng tiếng Việt. Ngữ liệu dùng chung:\nTrục quay của Trái Đất nghiêng khoảng 23,5° so với phương vuông góc với mặt phẳng quỹ đạo. Khi Trái Đất chuyển động quanh Mặt Trời, hướng trục gần như giữ nguyên. Vào tháng Sáu, Bắc bán cầu nghiêng về phía Mặt Trời, nhận ánh sáng trực diện hơn và có ngày dài hơn. Cùng lúc, Nam bán cầu có ngày ngắn hơn và ánh sáng xiên hơn. Sáu tháng sau, tình thế đảo ngược. Khoảng cách giữa Trái Đất và Mặt Trời thay đổi trong năm nhưng không giải thích được việc hai bán cầu có mùa trái ngược."
+      },
+      {
+        "role": "user",
+        "content": "Vì sao mùa hè thường nóng hơn mùa đông?"
+      }
+    ],
+    "temperature": 0.2,
+    "max_tokens": 2400,
+    "response": {
+      "id": "chatcmpl-1919cc54-947c-46f6-9f11-070ad316f813",
+      "object": "chat.completion",
+      "created": 1795344839,
+      "model": "qwen/qwen3.8-27b",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "Dựa trên ngữ liệu được cung cấp, mùa hè thường nóng hơn mùa đông do sự thay đổi về **góc chiếu của ánh sáng Mặt Trời** và **độ dài ngày**, chứ không phải do khoảng cách giữa Trái Đất và Mặt Trời.\n\nCụ thể:\n1.  **Ánh sáng trực diện hơn:** Vào mùa hè (ví dụ tháng Sáu ở Bắc bán cầu), bán cầu đó nghiêng về phía Mặt Trời, khiến ánh sáng chiếu xuống trực diện hơn. Ánh sáng tập trung vào một diện tích nhỏ hơn nên năng lượng nhiệt nhận được trên mỗi đơn vị diện tích lớn hơn, gây ra nhiệt độ cao.\n2.  **Ngày dài hơn:** Mùa hè có thời gian ban ngày dài hơn, nghĩa là bề mặt Trái Đất tiếp nhận ánh sáng Mặt Trời trong khoảng thời gian dài hơn trong ngày, tích lũy nhiều nhiệt hơn.\n\nNgược lại, vào mùa đông, bán cầu đó nghiêng ra xa Mặt Trời, ánh sáng chiếu xiên hơn (phân tán trên diện tích rộng hơn) và ngày ngắn hơn, dẫn đến nhiệt độ thấp hơn.\n\nNgữ liệu cũng nhấn mạnh rằng **khoảng cách giữa Trái Đất và Mặt Trời thay đổi trong năm nhưng không giải thích được việc hai bán cầu có mùa trái ngược**, nên đây không phải là nguyên nhân chính."
+          },
+          "logprobs": null,
+          "finish_reason": "stop"
+        }
+      ],
+      "usage": {
+        "queue_time": 0.049460984,
+        "prompt_tokens": 157,
+        "prompt_time": 0.011261646,
+        "completion_tokens": 268,
+        "completion_time": 0.520490079,
+        "total_tokens": 425,
+        "total_time": 0.531751725
+      },
+      "usage_breakdown": null,
+      "system_fingerprint": "fp_21e59ac2de",
+      "x_groq": {
+        "id": "req_01m81e8ca8e6e939754xr2eghd",
+        "seed": 1822314021
+      },
+      "service_tier": "on_demand"
+    }
+  },
+  {
+    "task": "2. Giải thích vì sao có mùa",
+    "level": "Cải tiến",
+    "model": "qwen/qwen3.8-27b",
+    "messages": [
+      {
+        "role": "system",
+        "content": "Trả lời bằng tiếng Việt. Ngữ liệu dùng chung:\nTrục quay của Trái Đất nghiêng khoảng 23,5° so với phương vuông góc với mặt phẳng quỹ đạo. Khi Trái Đất chuyển động quanh Mặt Trời, hướng trục gần như giữ nguyên. Vào tháng Sáu, Bắc bán cầu nghiêng về phía Mặt Trời, nhận ánh sáng trực diện hơn và có ngày dài hơn. Cùng lúc, Nam bán cầu có ngày ngắn hơn và ánh sáng xiên hơn. Sáu tháng sau, tình thế đảo ngược. Khoảng cách giữa Trái Đất và Mặt Trời thay đổi trong năm nhưng không giải thích được việc hai bán cầu có mùa trái ngược."
+      },
+      {
+        "role": "user",
+        "content": "Giải thích cho học sinh lớp 6 theo hai ý riêng. Góc chiếu ảnh hưởng thế nào đến cùng một mét vuông đất? Độ dài ngày ảnh hưởng thế nào đến tổng năng lượng nhận được?"
+      }
+    ],
+    "temperature": 0.2,
+    "max_tokens": 2400,
+    "response": {
+      "id": "chatcmpl-7a6b04b0-9969-4500-b7d7-97b722afedd4",
+      "object": "chat.completion",
+      "created": 1795344841,
+      "model": "qwen/qwen3.8-27b",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "Chào em, để hiểu tại sao mùa nóng và mùa lạnh lại khác nhau giữa hai bán cầu, chúng ta hãy cùng phân tích hai yếu tố quan trọng dựa trên ngữ liệu đã cho. Dưới đây là giải thích dành riêng cho học sinh lớp 6:\n\n**1. Góc chiếu ảnh hưởng thế nào đến cùng một mét vuông đất?**\nHãy tưởng tượng em cầm một đèn pin chiếu xuống mặt bàn.\n*   Khi em chiếu **thẳng đứng** (góc vuông góc), ánh sáng tập trung vào một điểm nhỏ, nên vùng đó sẽ **sáng và nóng** hơn.\n*   Khi em chiếu **xiên** (góc nghiêng), ánh sáng bị trải rộng ra một vùng lớn hơn, nên mỗi mét vuông đất chỉ nhận được ít ánh sáng hơn, do đó **lạnh hơn**.\n\nÁp dụng vào Trái Đất:\n*   Vào mùa hè (ví dụ tháng 6 ở Bắc bán cầu), mặt trời chiếu gần như **trực diện** (thẳng đứng) xuống vùng đó. Vì vậy, cùng một mét vuông đất nhận được nhiều năng lượng nhiệt hơn → **Nóng**.\n*   Vào mùa đông, mặt trời chiếu **xiên** xuống. Ánh sáng bị trải rộng, mỗi mét vuông đất nhận được ít năng lượng hơn → **Lạnh**.\n\n**2. Độ dài ngày ảnh hưởng thế nào đến tổng năng lượng nhận được?**\nNăng lượng mà Trái Đất nhận được không chỉ phụ thuộc vào \"mạnh hay yếu\" của ánh sáng, mà còn phụ thuộc vào **thời gian** nhận ánh sáng đó.\n\n*   **Ngày dài:** Khi ngày kéo dài (ví dụ 14–16 giờ), mặt đất có **nhiều thời gian hơn** để hấp thụ nhiệt từ Mặt Trời. Tổng lượng năng lượng tích lũy trong ngày sẽ **lớn hơn** → Nhiệt độ cao hơn.\n*   **Ngày ngắn:** Khi ngày ngắn (ví dụ 8–10 giờ), mặt đất chỉ có ít thời gian để nhận nhiệt. Dù ánh sáng có mạnh, nhưng vì thời gian ngắn nên tổng năng lượng nhận được **ít hơn** → Nhiệt độ thấp hơn.\n\n**Tóm lại:**\n*   **Góc chiếu** quyết định **mật độ năng lượng** trên mỗi mét vuông (trực diện = nhiều, xiên = ít).\n*   **Độ dài ngày** quyết định **tổng thời gian** nhận năng lượng (ngày dài = tổng năng lượng lớn, ngày ngắn = tổng năng lượng nhỏ).\n\nHai yếu tố này kết hợp lại tạo nên sự khác biệt rõ rệt giữa mùa hè và mùa đông ở hai bán cầu."
+          },
+          "logprobs": null,
+          "finish_reason": "stop"
+        }
+      ],
+      "usage": {
+        "queue_time": 0.04942401,
+        "prompt_tokens": 187,
+        "prompt_time": 0.01306012,
+        "completion_tokens": 549,
+        "completion_time": 1.289371904,
+        "total_tokens": 736,
+        "total_time": 1.302432024
+      },
+      "usage_breakdown": null,
+      "system_fingerprint": "fp_21e59ac2de",
+      "x_groq": {
+        "id": "req_01m81e8d3ve1g8ed3adehnmx9f",
+        "seed": 1274030385
+      },
+      "service_tier": "on_demand"
+    }
+  },
+  {
+    "task": "2. Giải thích vì sao có mùa",
+    "level": "Nâng cao",
+    "model": "qwen/qwen3.8-27b",
+    "messages": [
+      {
+        "role": "system",
+        "content": "Trả lời bằng tiếng Việt. Ngữ liệu dùng chung:\nTrục quay của Trái Đất nghiêng khoảng 23,5° so với phương vuông góc với mặt phẳng quỹ đạo. Khi Trái Đất chuyển động quanh Mặt Trời, hướng trục gần như giữ nguyên. Vào tháng Sáu, Bắc bán cầu nghiêng về phía Mặt Trời, nhận ánh sáng trực diện hơn và có ngày dài hơn. Cùng lúc, Nam bán cầu có ngày ngắn hơn và ánh sáng xiên hơn. Sáu tháng sau, tình thế đảo ngược. Khoảng cách giữa Trái Đất và Mặt Trời thay đổi trong năm nhưng không giải thích được việc hai bán cầu có mùa trái ngược."
+      },
+      {
+        "role": "user",
+        "content": "Đóng vai giáo viên có một đèn pin và tờ giấy. Hướng dẫn một phép so sánh công bằng để giải thích góc chiếu. Nêu một điều mô hình chưa thể hiện, rồi hỏi một câu để học sinh tự dự đoán."
+      }
+    ],
+    "temperature": 0.2,
+    "max_tokens": 2400,
+    "response": {
+      "id": "chatcmpl-c071e249-60cc-49ca-9920-57ff07217b05",
+      "object": "chat.completion",
+      "created": 1795344880,
+      "model": "qwen/qwen3.8-27b",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "Chào các em, hôm nay thầy/cô sẽ dùng đèn pin và tờ giấy này để chúng ta cùng khám phá bí mật của các mùa.\n\n**Bước 1: Thiết lập mô hình**\nThầy/cô đặt tờ giấy phẳng trên bàn, tượng trưng cho bề mặt Trái Đất. Đèn pin là Mặt Trời.\n\n**Bước 2: Phép so sánh công bằng (Góc chiếu)**\nĐể so sánh một cách công bằng, thầy/cô sẽ giữ **cùng một khoảng cách** từ đèn pin đến tờ giấy trong cả hai trường hợp.\n*   **Trường hợp 1 (Ánh sáng trực diện):** Thầy/cô chiếu đèn pin vuông góc (90 độ) xuống một vùng nhỏ ở giữa tờ giấy. Các em thấy ánh sáng tập trung, sáng rực và vùng sáng nhỏ gọn.\n*   **Trường hợp 2 (Ánh sáng xiên):** Thầy/cô giữ nguyên khoảng cách, nhưng nghiêng đèn pin một góc (giả lập góc chiếu xiên). Lúc này, cùng một lượng ánh sáng từ đèn pin bị \"kéo dài\" và trải rộng ra trên một vùng lớn hơn của tờ giấy.\n\n**Kết luận từ mô hình:**\nCác em thấy không? Khi ánh sáng chiếu **trực diện**, năng lượng tập trung vào một diện tích nhỏ nên nhiệt độ cao hơn (mùa hè). Khi ánh sáng chiếu **xiên**, cùng lượng năng lượng đó bị phân tán trên diện tích lớn hơn nên mỗi đơn vị diện tích nhận được ít nhiệt hơn (mùa đông). Đây chính là lý do tại sao Bắc bán cầu nóng vào tháng Sáu dù khoảng cách đến Mặt Trời không phải là yếu tố quyết định chính.\n\n**Điều mô hình chưa thể hiện:**\nMô hình bằng đèn pin và giấy này **chưa thể hiện được sự thay đổi độ dài ngày và đêm**. Trong thực tế, khi Bắc bán cầu nghiêng về phía Mặt Trời, không chỉ ánh sáng chiếu trực diện mà ngày còn dài hơn (nhiều giờ nắng hơn), và ngược lại. Tờ giấy phẳng không thể mô phỏng được hình cầu của Trái Đất hay sự luân phiên ngày/đêm do trục nghiêng.\n\n**Câu hỏi để các em tự dự đoán:**\nNếu thầy/cô quay tờ giấy này (tượng trưng cho Trái Đất tự quay quanh trục) trong khi vẫn giữ nguyên góc chiếu xiên như ở Trường hợp 2, thì vùng sáng trên giấy sẽ di chuyển như thế nào so với Trường hợp 1, và điều đó gợi ý gì về thời gian mà một điểm cụ thể trên giấy được chiếu sáng?"
+          },
+          "logprobs": null,
+          "finish_reason": "stop"
+        }
+      ],
+      "usage": {
+        "queue_time": 0.049012683,
+        "prompt_tokens": 195,
+        "prompt_time": 0.014072516,
+        "completion_tokens": 532,
+        "completion_time": 1.055636125,
+        "total_tokens": 727,
+        "total_time": 1.069708641
+      },
+      "usage_breakdown": null,
+      "system_fingerprint": "fp_21e59ac2de",
+      "x_groq": {
+        "id": "req_01m81e9kbwee4sk445htmhf1k9",
+        "seed": 1045197426
+      },
+      "service_tier": "on_demand"
+    }
+  },
+  {
+    "task": "3. Tạo câu hỏi tự ôn",
+    "level": "Cơ bản",
+    "model": "qwen/qwen3.8-27b",
+    "messages": [
+      {
+        "role": "system",
+        "content": "Trả lời bằng tiếng Việt. Ngữ liệu dùng chung:\nTrục quay của Trái Đất nghiêng khoảng 23,5° so với phương vuông góc với mặt phẳng quỹ đạo. Khi Trái Đất chuyển động quanh Mặt Trời, hướng trục gần như giữ nguyên. Vào tháng Sáu, Bắc bán cầu nghiêng về phía Mặt Trời, nhận ánh sáng trực diện hơn và có ngày dài hơn. Cùng lúc, Nam bán cầu có ngày ngắn hơn và ánh sáng xiên hơn. Sáu tháng sau, tình thế đảo ngược. Khoảng cách giữa Trái Đất và Mặt Trời thay đổi trong năm nhưng không giải thích được việc hai bán cầu có mùa trái ngược."
+      },
+      {
+        "role": "user",
+        "content": "Tạo câu hỏi ôn tập về các mùa."
+      }
+    ],
+    "temperature": 0.2,
+    "max_tokens": 2400,
+    "response": {
+      "id": "chatcmpl-0ce8f71e-9796-4674-a43f-b9a5bdba3db0",
+      "object": "chat.completion",
+      "created": 1795344884,
+      "model": "qwen/qwen3.8-27b",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "Dựa trên ngữ liệu đã cung cấp, dưới đây là một số câu hỏi ôn tập về các mùa, được chia theo các mức độ từ nhận biết đến vận dụng:\n\n**1. Câu hỏi nhận biết (Kiểm tra kiến thức cơ bản)**\n*   Trục quay của Trái Đất nghiêng bao nhiêu độ so với phương vuông góc với mặt phẳng quỹ đạo?\n*   Vào tháng Sáu, bán cầu nào nghiêng về phía Mặt Trời và bán cầu nào có ngày ngắn hơn?\n*   Hướng của trục quay Trái Đất thay đổi như thế nào khi Trái Đất chuyển động quanh Mặt Trời?\n\n**2. Câu hỏi thông hiểu (Giải thích nguyên nhân)**\n*   Tại sao vào tháng Sáu, Bắc bán cầu lại có ngày dài hơn và nhận ánh sáng trực diện hơn?\n*   Điều gì xảy ra với tình thế ánh sáng và độ dài ngày ở hai bán cầu sau sáu tháng kể từ tháng Sáu?\n*   Vì sao khoảng cách giữa Trái Đất và Mặt Trời thay đổi trong năm lại không phải là nguyên nhân chính giải thích việc hai bán cầu có mùa trái ngược nhau?\n\n**3. Câu hỏi vận dụng (Phân tích và suy luận)**\n*   Nếu trục quay của Trái Đất không nghiêng (nghiêng 0°), hiện tượng mùa và độ dài ngày đêm ở hai bán cầu sẽ thay đổi như thế nào? (Dựa vào logic từ ngữ liệu: hướng trục giữ nguyên và sự nghiêng gây ra sự khác biệt).\n*   Hãy giải thích tại sao cùng một thời điểm trong năm, Bắc bán cầu và Nam bán cầu lại có các mùa trái ngược nhau (ví dụ: một bên là mùa hè, bên kia là mùa đông)?\n\n**Đáp án gợi ý (dựa trên ngữ liệu):**\n1.  *23,5°.*\n2.  *Bắc bán cầu nghiêng về phía Mặt Trời; Nam bán cầu có ngày ngắn hơn.*\n3.  *Hướng trục gần như giữ nguyên.*\n4.  *Vì Bắc bán cầu nghiêng về phía Mặt Trời.*\n5.  *Tình thế đảo ngược (Nam bán cầu nghiêng về phía Mặt Trời, ngày dài hơn; Bắc bán cầu ngày ngắn hơn).*\n6.  *Vì ngữ liệu khẳng định rõ: \"Khoảng cách giữa Trái Đất và Mặt Trời thay đổi trong năm nhưng không giải thích được việc hai bán cầu có mùa trái ngược.\"*\n7.  *Nếu không nghiêng, cả hai bán cầu sẽ nhận ánh sáng tương đương quanh năm, không có sự chênh lệch lớn về độ dài ngày đêm và cường độ ánh sáng theo mùa như hiện tại.*\n8.  *Do trục quay nghiêng và giữ nguyên hướng trong khi Trái Đất chuyển động quanh Mặt Trời, dẫn đến lúc thì Bắc bán cầu nghiêng về phía Mặt Trời, lúc thì Nam bán cầu nghiêng về phía Mặt Trời.*"
+          },
+          "logprobs": null,
+          "finish_reason": "stop"
+        }
+      ],
+      "usage": {
+        "queue_time": 0.251148834,
+        "prompt_tokens": 157,
+        "prompt_time": 0.011542725,
+        "completion_tokens": 585,
+        "completion_time": 1.138168603,
+        "total_tokens": 742,
+        "total_time": 1.149711328
+      },
+      "usage_breakdown": null,
+      "system_fingerprint": "fp_424cb89518",
+      "x_groq": {
+        "id": "req_01m81e9qvge22v0bbfxwcvpdg4",
+        "seed": 858526199
+      },
+      "service_tier": "on_demand"
+    }
+  },
+  {
+    "task": "3. Tạo câu hỏi tự ôn",
+    "level": "Cải tiến",
+    "model": "qwen/qwen3.8-27b",
+    "messages": [
+      {
+        "role": "system",
+        "content": "Trả lời bằng tiếng Việt. Ngữ liệu dùng chung:\nTrục quay của Trái Đất nghiêng khoảng 23,5° so với phương vuông góc với mặt phẳng quỹ đạo. Khi Trái Đất chuyển động quanh Mặt Trời, hướng trục gần như giữ nguyên. Vào tháng Sáu, Bắc bán cầu nghiêng về phía Mặt Trời, nhận ánh sáng trực diện hơn và có ngày dài hơn. Cùng lúc, Nam bán cầu có ngày ngắn hơn và ánh sáng xiên hơn. Sáu tháng sau, tình thế đảo ngược. Khoảng cách giữa Trái Đất và Mặt Trời thay đổi trong năm nhưng không giải thích được việc hai bán cầu có mùa trái ngược."
+      },
+      {
+        "role": "user",
+        "content": "Viết ba câu theo thứ tự nhớ, hiểu, vận dụng. Sau cả ba câu mới ghi đáp án ngắn để em tự chấm."
+      }
+    ],
+    "temperature": 0.2,
+    "max_tokens": 2400,
+    "response": {
+      "id": "chatcmpl-63c6339d-3ab4-4611-9139-01e8cdc5e102",
+      "object": "chat.completion",
+      "created": 1795344918,
+      "model": "qwen/qwen3.8-27b",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "1. **Nhớ**: Trục quay của Trái Đất nghiêng khoảng bao nhiêu độ so với phương vuông góc với mặt phẳng quỹ đạo?\n2. **Hiểu**: Tại sao khoảng cách giữa Trái Đất và Mặt Trời thay đổi trong năm lại không phải là nguyên nhân chính gây ra sự khác biệt về mùa giữa hai bán cầu?\n3. **Vận dụng**: Dựa vào đặc điểm hướng trục giữ nguyên trong quá trình chuyển động quanh Mặt Trời, hãy giải thích vì sao vào tháng Sáu Bắc bán cầu có ngày dài hơn trong khi Nam bán cầu lại có ngày ngắn hơn.\n\n**Đáp án ngắn:**\n1. 23,5°.\n2. Vì khoảng cách thay đổi không đủ lớn để giải thích sự trái ngược về mùa giữa hai bán cầu cùng một thời điểm.\n3. Vì trục nghiêng giữ nguyên hướng, nên khi Bắc bán cầu nghiêng về phía Mặt Trời (tháng Sáu), nó nhận ánh sáng trực diện và ngày dài hơn, trong khi Nam bán cầu nghiêng ra xa nên nhận ánh sáng xiên và ngày ngắn hơn."
+          },
+          "logprobs": null,
+          "finish_reason": "stop"
+        }
+      ],
+      "usage": {
+        "queue_time": 0.051798168,
+        "prompt_tokens": 175,
+        "prompt_time": 0.01379901,
+        "completion_tokens": 218,
+        "completion_time": 0.423597288,
+        "total_tokens": 393,
+        "total_time": 0.437396298
+      },
+      "usage_breakdown": null,
+      "system_fingerprint": "fp_21e59ac2de",
+      "x_groq": {
+        "id": "req_01m81eas7zegvrvwyjzz9xdmad",
+        "seed": 704389249
+      },
+      "service_tier": "on_demand"
+    }
+  },
+  {
+    "task": "3. Tạo câu hỏi tự ôn",
+    "level": "Nâng cao",
+    "model": "qwen/qwen3.8-27b",
+    "messages": [
+      {
+        "role": "system",
+        "content": "Trả lời bằng tiếng Việt. Ngữ liệu dùng chung:\nTrục quay của Trái Đất nghiêng khoảng 23,5° so với phương vuông góc với mặt phẳng quỹ đạo. Khi Trái Đất chuyển động quanh Mặt Trời, hướng trục gần như giữ nguyên. Vào tháng Sáu, Bắc bán cầu nghiêng về phía Mặt Trời, nhận ánh sáng trực diện hơn và có ngày dài hơn. Cùng lúc, Nam bán cầu có ngày ngắn hơn và ánh sáng xiên hơn. Sáu tháng sau, tình thế đảo ngược. Khoảng cách giữa Trái Đất và Mặt Trời thay đổi trong năm nhưng không giải thích được việc hai bán cầu có mùa trái ngược."
+      },
+      {
+        "role": "user",
+        "content": "Đóng vai người ra đề. Dùng mẫu “Dự đoán → dẫn chứng” cho một câu vận dụng. Thêm một câu nhớ và một câu chẩn đoán lỗi nhầm về khoảng cách. Gom đáp án cuối bộ, chỉ rõ dấu hiệu trả lời đúng."
+      }
+    ],
+    "temperature": 0.2,
+    "max_tokens": 2400,
+    "response": {
+      "id": "chatcmpl-141657a8-9f93-43a0-9fe1-63bd31ed2eb9",
+      "object": "chat.completion",
+      "created": 1795344931,
+      "model": "qwen/qwen3.8-27b",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "Chào bạn, với tư cách là người ra đề, tôi thiết kế bộ câu hỏi dựa trên ngữ liệu đã cho như sau:\n\n**Câu hỏi vận dụng:**\nHãy dự đoán hiện tượng thời tiết tại Nam bán cầu vào tháng Mười Hai và dẫn chứng từ ngữ liệu để giải thích lý do.\n\n**Câu hỏi ghi nhớ:**\nTrục quay của Trái Đất nghiêng bao nhiêu độ so với phương vuông góc với mặt phẳng quỹ đạo?\n\n**Câu hỏi chẩn đoán lỗi nhầm:**\nMột học sinh cho rằng: \"Mùa đông ở Bắc bán cầu là do Trái Đất ở xa Mặt Trời nhất trong năm\". Dựa vào ngữ liệu, hãy chỉ ra sai lầm trong lập luận này.\n\n***\n\n**ĐÁP ÁN VÀ DẤU HIỆU TRẢ LỜI ĐÚNG**\n\n1.  **Câu vận dụng:**\n    *   *Dự đoán:* Nam bán cầu có ngày dài hơn và nhận ánh sáng trực diện hơn (mùa hè).\n    *   *Dẫn chứng:* Ngữ liệu nêu rõ \"Sáu tháng sau [tháng Sáu], tình thế đảo ngược\". Vì tháng Sáu Bắc bán cầu nghiêng về phía Mặt Trời, nên tháng Mười Hai (6 tháng sau) Nam bán cầu sẽ nghiêng về phía Mặt Trời.\n    *   *Dấu hiệu trả lời đúng:* Học sinh phải nêu được sự \"đảo ngược\" so với tháng Sáu và liên hệ trực tiếp đến việc Nam bán cầu nhận ánh sáng trực diện/ngày dài.\n\n2.  **Câu ghi nhớ:**\n    *   *Đáp án:* 23,5°.\n    *   *Dấu hiệu trả lời đúng:* Nêu chính xác con số 23,5°.\n\n3.  **Câu chẩn đoán lỗi nhầm:**\n    *   *Đáp án:* Sai lầm nằm ở việc quy kết nguyên nhân mùa là do khoảng cách. Ngữ liệu khẳng định: \"Khoảng cách giữa Trái Đất và Mặt Trời thay đổi trong năm nhưng **không giải thích được** việc hai bán cầu có mùa trái ngược\". Nguyên nhân thực sự là do trục quay nghiêng và hướng trục giữ nguyên.\n    *   *Dấu hiệu trả lời đúng:* Học sinh phải trích dẫn hoặc diễn đạt lại ý \"khoảng cách không giải thích được\" và chỉ ra rằng nguyên nhân là do sự nghiêng của trục (hướng trục giữ nguyên)."
+          },
+          "logprobs": null,
+          "finish_reason": "stop"
+        }
+      ],
+      "usage": {
+        "queue_time": 0.078909397,
+        "prompt_tokens": 198,
+        "prompt_time": 0.014163652,
+        "completion_tokens": 488,
+        "completion_time": 0.945252773,
+        "total_tokens": 686,
+        "total_time": 0.959416425
+      },
+      "usage_breakdown": null,
+      "system_fingerprint": "fp_424cb89518",
+      "x_groq": {
+        "id": "req_01m81eb5y3e17b9njq003wthny",
+        "seed": 1486538678
+      },
+      "service_tier": "on_demand"
+    }
+  }
+]
